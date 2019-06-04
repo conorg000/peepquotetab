@@ -1,0 +1,9 @@
+{
+    "name": "PeepTab",
+    "version": "0.1",
+    "description": "New tab, new wisdom",
+    "manifest_version": 2,
+	"background": {"scripts": ["background.js"], "persistent": false},
+	"chrome_url_overrides": {"newtab": "peep.html"},
+	"permissions": ["activeTab"]
+}
